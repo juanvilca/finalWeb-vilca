@@ -1,0 +1,48 @@
+/*footer*/
+.footerHome{
+    display: flex;
+    justify-content: center;
+    grid-area: footer;
+    background-color: black;
+    .redesIconos{
+        display: flex;
+        padding: 20px;
+        margin-top: 8px;
+        justify-content: center;
+        justify-content: space-around;
+    }
+        .redesIconos a{
+            background: whitesmoke;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 28px;
+            color: black;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            line-height: 58px;
+            cursor: pointer;
+            transition: 0.5s all;
+            margin: 11px;
+        }
+            .redesIconos a:hover{
+                transform: scale(1.1);
+            }
+                .copyright{
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 500;
+                    font-size: 0.8em;
+                    text-align: center;
+                    color: whitesmoke;
+                    margin: 5px;
+                }
+                    .logoFooterWrap{
+                        display: flex;
+                        grid-area: footer;
+                        position: absolute;
+                        justify-content: left;
+                        align-self: center;
+                        width: 100%;
+                        padding: 0 0 0 5%;
+                    }
+}

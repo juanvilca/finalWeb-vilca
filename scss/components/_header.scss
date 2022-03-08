@@ -1,0 +1,17 @@
+header{
+    grid-area: header;
+    width: 100%;
+    .brandWrap{
+        background-color:  black;
+        .brand{
+            text-align: center;
+            -webkit-transform: scaleX(2.5);
+            transform: scaleX(1.5);
+            font-size: 6em;
+            font-weight: 600;
+            color: #eeeeee;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+        }
+    } 
+}
