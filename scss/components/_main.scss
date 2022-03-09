@@ -1,8 +1,7 @@
 main{
     grid-area: main;
-    height: 100%;
     .mainTitleWrap{
-        display: flex;
+        display: grid;
         justify-content: center;
     }
         .mainTitle{
@@ -11,4 +10,16 @@ main{
             -webkit-transform: scaleX(2.1);
             transform: scaleX(1.4);
         }
+            .gallery{
+                display: grid;
+                grid-template-columns: 40% 40%;
+                width: 100%;
+                margin: auto;
+            }
+                .gallery img{
+                    width: 100%;
+                    vertical-align: top;
+                    height: 300px;
+                    object-fit: cover;
+                }
 }

@@ -21,16 +21,25 @@ nav {
   background-color: black; }
 
 main {
-  grid-area: main;
-  height: 100%; }
+  grid-area: main; }
   main .mainTitleWrap {
-    display: flex;
+    display: grid;
     justify-content: center; }
   main .mainTitle {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     -webkit-transform: scaleX(2.1);
     transform: scaleX(1.4); }
+  main .gallery {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    width: 100%;
+    margin: auto; }
+  main .gallery img {
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover; }
 
 /*footer*/
 .footerHome {
@@ -81,7 +90,7 @@ main {
 
 body .grid {
   display: grid;
-  grid-template-areas: "nav" "header"  "main"  "footer";
+  grid-template-areas: "nav" "header" "main" "footer";
   grid-template-columns: 100%;
-  grid-template-rows: 25% 18% 50% 20%;
+  grid-template-rows: 30% 8% 10% 20%;
   height: 100vh; }
