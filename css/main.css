@@ -32,7 +32,7 @@ main {
     transform: scaleX(1.4); }
   main .gallery {
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 50% 50%;
     width: 100%;
     margin: auto; }
   main .gallery img {
@@ -92,5 +92,5 @@ body .grid {
   display: grid;
   grid-template-areas: "nav" "header" "main" "footer";
   grid-template-columns: 100%;
-  grid-template-rows: 30% 8% 10% 20%;
+  grid-template-rows: 32% 20% 140% 30%;
   height: 100vh; }
