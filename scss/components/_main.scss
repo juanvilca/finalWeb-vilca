@@ -3,6 +3,7 @@ main{
     .mainTitleWrap{
         display: grid;
         justify-content: center;
+        margin-top: 3%;
     }
         .mainTitle{
             font-family: 'Roboto', sans-serif;
@@ -22,4 +23,8 @@ main{
                     height: 300px;
                     object-fit: cover;
                 }
+                    .gallery :hover img{
+                        filter: blur(2px);
+                        transition: transform 0.5s;
+                    }
 }

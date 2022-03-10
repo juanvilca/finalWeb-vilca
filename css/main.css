@@ -24,7 +24,8 @@ main {
   grid-area: main; }
   main .mainTitleWrap {
     display: grid;
-    justify-content: center; }
+    justify-content: center;
+    margin-top: 3%; }
   main .mainTitle {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -40,6 +41,9 @@ main {
     vertical-align: top;
     height: 300px;
     object-fit: cover; }
+  main .gallery :hover img {
+    filter: blur(2px);
+    transition: transform 0.5s; }
 
 /*footer*/
 .footerHome {
@@ -47,17 +51,17 @@ main {
   justify-content: center;
   grid-area: footer;
   background-color: black; }
+  .footerHome .redesIconosWrap {
+    padding-top: 2%; }
   .footerHome .redesIconos {
     display: flex;
-    padding: 20px;
-    margin-top: 8px;
     justify-content: center;
     justify-content: space-around; }
   .footerHome .redesIconos a {
     background: whitesmoke;
     border-radius: 50%;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 30px;
     color: black;
     width: 60px;
     height: 60px;
@@ -65,19 +69,18 @@ main {
     line-height: 58px;
     cursor: pointer;
     transition: 0.5s all;
-    margin: 11px; }
+    margin: 10px; }
   .footerHome .redesIconos a:hover {
     transform: scale(1.1); }
   .footerHome .copyright {
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
+    font-weight: 200;
+    font-size: 0.7em;
     text-align: center;
     color: whitesmoke;
-    margin: 5px; }
+    margin: 3em; }
   .footerHome .logoFooterWrap {
     display: flex;
-    grid-area: footer;
     position: absolute;
     justify-content: left;
     align-self: center;
@@ -94,5 +97,5 @@ body {
     display: grid;
     grid-template-areas: "nav" "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 32% 20% 140% 30%;
+    grid-template-rows: 32% 15% 145% 30%;
     height: 100vh; }
