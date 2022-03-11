@@ -94,30 +94,50 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
-  .mainNosotros .mainTitleWrap {
-    display: grid;
-    justify-content: center;
-    position: absolute;
-    width: 100%; }
-  .mainNosotros .mainTitle {
-    font-family: 'Noticia Text', serif;
-    color: #000000;
-    font-weight: 800;
-    font-size: 3em; }
   .mainNosotros .aboutUs {
     display: flex;
     width: 100%;
     position: relative;
     align-items: center;
     justify-content: center; }
+  .mainNosotros .mainTitleAboutUsWrap {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 100%; }
+  .mainNosotros .mainTitleAboutUs {
+    font-family: 'Roboto',sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3em;
+    font-style: italic; }
   .mainNosotros .aboutUsText {
     position: absolute;
-    padding: 5% 5%;
-    width: 70%; }
+    width: 60%;
+    height: 83%; }
   .mainNosotros .aboutUsText p {
-    font-size: 1em;
     font-family: 'Noticia Text', serif;
-    text-align: center; }
+    color: #1a1a1a;
+    font-size: 0.7rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 1%; }
+  .mainNosotros .mainTitleWrapCloser {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%; }
+  .mainNosotros .mainTitleCloser {
+    font-family: 'Roboto',sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3em; }
 
 /*footer*/
 .footerHome {
