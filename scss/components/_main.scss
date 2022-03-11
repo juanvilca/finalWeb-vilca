@@ -69,6 +69,18 @@ main{
                             
 }
 
+/*nosotros*/
+.gridNosotros{
+    display: grid;
+    grid-template-areas:"nav"
+                        "header"
+                        "main"
+                        "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 32% 15% 150% 30%;
+    height: 100vh;
+}
+
 .mainNosotros{
     grid-area: main;
     background-image:url(/img/backround/newspaperBackround.jpg);
@@ -79,22 +91,30 @@ main{
         .mainTitleWrap{
             display: grid;
             justify-content: center;
-            margin-top: 4%;
+            position: absolute;
+            width: 100%;
         }
             .mainTitle{
-                font-family: 'Roboto', sans-serif;
+                font-family: 'Noticia Text', serif;
                 color: #000000;
                 font-weight: 800;
                 font-size: 3em;
-                -webkit-transform: scaleX(1.1);
-                transform: scaleX(1.5);
             }
                 .aboutUs{
-                    display: grid;
+                    display: flex;
+                    width: 100%;
+                    position: relative;
+                    align-items: center;
                     justify-content: center;
                 }
-                    .aboutUs p{
-                        text-align: center;
-                        font-size: 1em;
-                    }
-}
+                        .aboutUsText{
+                            position: absolute;
+                            padding: 5% 5%;
+                            width: 70%;
+                        }
+                            .aboutUsText p{
+                                font-size: 1em;
+                                font-family: 'Noticia Text', serif;
+                                text-align: center;
+                            }
+                }
