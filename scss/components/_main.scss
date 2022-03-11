@@ -76,4 +76,25 @@ main{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+        .mainTitleWrap{
+            display: grid;
+            justify-content: center;
+            margin-top: 4%;
+        }
+            .mainTitle{
+                font-family: 'Roboto', sans-serif;
+                color: #000000;
+                font-weight: 800;
+                font-size: 3em;
+                -webkit-transform: scaleX(1.1);
+                transform: scaleX(1.5);
+            }
+                .aboutUs{
+                    display: grid;
+                    justify-content: center;
+                }
+                    .aboutUs p{
+                        text-align: center;
+                        font-size: 1em;
+                    }
 }
