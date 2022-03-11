@@ -68,3 +68,12 @@ main{
                                         }
                             
 }
+
+.mainNosotros{
+    grid-area: main;
+    background-image:url(/img/backround/newspaperBackround.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

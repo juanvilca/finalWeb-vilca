@@ -1,41 +1,40 @@
 /*footer*/
 .footerHome{
-    display: flex;
+    display: grid;
     justify-content: center;
+    align-items: center;
     grid-area: footer;
     background-color: black;
-    .redesIconosWrap{
-        padding-top: 2%;
-    }
         .redesIconos{
-            display: flex;
+            display: grid;
+            grid-template-columns: auto auto auto;
             justify-content: center;
             justify-content: space-around;
+            height: 8vh;
+            margin: 8px;
         }
             .redesIconos a{
-                background: whitesmoke;
-                border-radius: 50%;
+                background: black;
                 text-decoration: none;
-                font-size: 30px;
-                color: black;
-                width: 60px;
-                height: 60px;
+                font-size: 15px;
+                color: whitesmoke;
+                width: 45px;
+                height: 45px;
                 text-align: center;
-                line-height: 58px;
+                line-height: 35px;
                 cursor: pointer;
-                transition: 0.5s all;
-                margin: 10px;
+                transition: 1s all;
             }
                 .redesIconos a:hover{
                     transform: scale(1.1);
                 }
                     .copyright{
                         font-family: 'Roboto', sans-serif;
-                        font-weight: 200;
+                        font-weight: 500;
                         font-size: 0.7em;
                         text-align: center;
                         color: whitesmoke;
-                        margin: 3em;
+                        margin: 1em;
                     }
                         .logoFooterWrap{
                             display: flex;
@@ -44,5 +43,9 @@
                             align-self: center;
                             width: 100%;
                             padding: 0 0 0 5%;
+                            transition: 0.5s all;
                         }
+                            .logoFooterWrap a:hover{
+                                transform: scale(1.1);
+                            }
 }
