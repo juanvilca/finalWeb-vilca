@@ -1,14 +1,15 @@
 header{
+    display: grid;
     grid-area: header;
     width: 100%;
+    align-items: center;
     .brandWrap{
-        background-color:  black;
+        display: grid;
+        background-color: black;
         .brand{
             text-align: center;
-            -webkit-transform: scaleX(2.5);
-            transform: scaleX(1.5);
-            font-size: 6em;
-            font-weight: 600;
+            font-size: 7em;
+            font-weight: 800;
             color: #eeeeee;
             font-family: 'Roboto', sans-serif;
             text-transform: uppercase;

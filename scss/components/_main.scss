@@ -1,5 +1,10 @@
 main{
     grid-area: main;
+    background-image:url(/img/backround/newspaperBackround2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     .mainTitleWrap{
         display: grid;
         justify-content: center;
@@ -77,7 +82,7 @@ main{
                         "main"
                         "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 32% 15% 150% 30%;
+    grid-template-rows: 32% 18% 150% 30%;
     height: 100vh;
 }
 
@@ -113,12 +118,14 @@ main{
                 
                 .aboutUsText{
                     position: absolute;
-                    width: 60%;
-                    height: 83%;
+                    width: 58%;
+                    height: 11.5%;
+                    background-color: black;
+                    align-items: center;
                 }
                     .aboutUsText p{
                         font-family: 'Noticia Text', serif;
-                        color: rgb(26, 26, 26);
+                        color: rgb(168, 168, 168);
                         font-size: 0.7rem;
                         font-weight: 900;
                         text-align: center;
