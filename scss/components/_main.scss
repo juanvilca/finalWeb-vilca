@@ -7,14 +7,19 @@ main{
     background-size: cover;
     .mainTitleWrap{
         display: grid;
+        width: 100%;
+        height: 2%;
+        margin-top: 2%;
         justify-content: center;
-        margin-top: 3%;
+        align-items: center;
+        background-color: black;
     }
         .mainTitle{
             font-family: 'Roboto', sans-serif;
-            font-weight: 500;
-            -webkit-transform: scaleX(2.1);
-            transform: scaleX(1.4);
+            color: rgb(150, 79, 12);
+            font-weight: 800;
+            font-size: 1em;
+            font-style: italic;
         }
             .gallery{
                 display: grid;
@@ -82,7 +87,7 @@ main{
                         "main"
                         "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 32% 18% 150% 30%;
+    grid-template-rows: 28% 25% 162% 30%;
     height: 100vh;
 }
 

@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: black;
     .grid{
         display: grid;
         grid-template-areas:"nav"
@@ -19,7 +19,7 @@ body{
                             "main"
                             "footer";
         grid-template-columns: 100%;
-        grid-template-rows: 32% 18% 150% 25%;
+        grid-template-rows: 28% 25% 160% 30%;
         height: 100vh;
     }
 }
