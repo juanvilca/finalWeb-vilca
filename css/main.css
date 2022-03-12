@@ -34,6 +34,8 @@ nav {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 0.9em; }
+  nav .navbar-brand {
+    padding-left: 1.5em; }
 
 main {
   grid-area: main;
@@ -169,27 +171,25 @@ main {
 /*footer*/
 .footerHome {
   display: grid;
-  position: relative;
   justify-content: center;
   align-items: center;
   grid-area: footer;
   background-color: black; }
+  .footerHome .redesIconosWrap {
+    padding-top: 8%; }
   .footerHome .redesIconos {
     display: grid;
+    position: relative;
     grid-template-columns: auto auto auto;
-    justify-content: center;
-    justify-content: space-around;
-    height: 8vh;
-    margin: 8px; }
+    justify-content: space-around; }
   .footerHome .redesIconos a {
-    background: black;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 25px;
     color: whitesmoke;
     width: 45px;
     height: 45px;
     text-align: center;
-    line-height: 35px;
+    line-height: 1%;
     cursor: pointer;
     transition: 1s all; }
   .footerHome .redesIconos a:hover {
