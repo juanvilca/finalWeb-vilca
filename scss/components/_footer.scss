@@ -1,12 +1,12 @@
 /*footer*/
 .footerHome{
     display: grid;
-    
+    grid-area: footer;
     justify-content: center;
     align-items: center;
-    grid-area: footer;
     background-color: black;
     .redesIconosWrap{
+        display: grid;
         padding-top: 8%;
     }
         .redesIconos{

@@ -23,3 +23,39 @@ body{
         height: 100vh;
     }
 }
+
+/*grid products*/
+.gridProducts{
+    display: grid;
+    grid-template-areas:"nav"
+                        "header"
+                        "main"
+                        "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 28% 25% 290% 30%;
+    height: 100vh;
+}
+
+/*grid nosotros*/
+.gridNosotros{
+    display: grid;
+    grid-template-areas:"nav"
+                        "header"
+                        "main"
+                        "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 28% 25% 170% 30%;
+    height: 100vh;
+}
+
+/*grid fall22*/
+.gridFall22{
+    display: grid;
+    grid-template-areas:"nav"
+                        "header"
+                        "main"
+                        "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 28% 25% 315% 30%;
+    height: 100vh;
+}

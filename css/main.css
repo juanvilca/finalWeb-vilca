@@ -87,7 +87,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: scale(0); }
+    transform: scale(0);
+    cursor: zoom-in; }
   main .lightBox:target {
     transform: scale(1); }
   main .lightBox img {
@@ -107,13 +108,6 @@ main {
     border-radius: 50%; }
 
 /*nosotros*/
-.gridNosotros {
-  display: grid;
-  grid-template-areas: "nav" "header" "main" "footer";
-  grid-template-columns: 100%;
-  grid-template-rows: 28% 25% 162% 30%;
-  height: 100vh; }
-
 .mainNosotros {
   grid-area: main;
   background-image: url(/img/backround/newspaperBackround.jpg);
@@ -122,12 +116,14 @@ main {
   background-attachment: fixed;
   background-size: cover; }
   .mainNosotros .aboutUs {
+    padding-top: 1%;
     display: flex;
     width: 100%;
     position: relative;
     align-items: center;
     justify-content: center; }
   .mainNosotros .mainTitleAboutUsWrap {
+    padding-top: 1%;
     display: flex;
     position: absolute;
     justify-content: center;
@@ -168,14 +164,59 @@ main {
     font-style: italic;
     font-size: 3em; }
 
+/*main products*/
+.mainProductsWrap {
+  grid-area: main;
+  background-image: none; }
+  .mainProductsWrap .mainProducts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .mainProductsWrap .card {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3em;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    border-radius: 2%; }
+  .mainProductsWrap .card-img-top {
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover; }
+
+/* main fall22*/
+.mainFall22Wrap {
+  grid-area: main; }
+  .mainFall22Wrap .mainFall22 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .mainFall22Wrap .card {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3em;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    border-radius: 2%; }
+  .mainFall22Wrap .card-img-top {
+    width: 100%;
+    vertical-align: top;
+    height: 400px;
+    object-fit: cover; }
+
 /*footer*/
 .footerHome {
   display: grid;
+  grid-area: footer;
   justify-content: center;
   align-items: center;
-  grid-area: footer;
   background-color: black; }
   .footerHome .redesIconosWrap {
+    display: grid;
     padding-top: 8%; }
   .footerHome .redesIconos {
     display: grid;
@@ -224,3 +265,27 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 28% 25% 160% 30%;
     height: 100vh; }
+
+/*grid products*/
+.gridProducts {
+  display: grid;
+  grid-template-areas: "nav" "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: 28% 25% 290% 30%;
+  height: 100vh; }
+
+/*grid nosotros*/
+.gridNosotros {
+  display: grid;
+  grid-template-areas: "nav" "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: 28% 25% 170% 30%;
+  height: 100vh; }
+
+/*grid fall22*/
+.gridFall22 {
+  display: grid;
+  grid-template-areas: "nav" "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: 28% 25% 315% 30%;
+  height: 100vh; }

@@ -55,6 +55,7 @@ main{
                                 justify-content: center;
                                 align-items: center;
                                 transform: scale(0);
+                                cursor: zoom-in;
                             }
                                 .lightBox:target{
                                     transform: scale(1);
@@ -80,17 +81,6 @@ main{
 }
 
 /*nosotros*/
-.gridNosotros{
-    display: grid;
-    grid-template-areas:"nav"
-                        "header"
-                        "main"
-                        "footer";
-    grid-template-columns: 100%;
-    grid-template-rows: 28% 25% 162% 30%;
-    height: 100vh;
-}
-
 .mainNosotros{
     grid-area: main;
     background-image:url(/img/backround/newspaperBackround.jpg);
@@ -99,6 +89,7 @@ main{
     background-attachment: fixed;
     background-size: cover;
     .aboutUs{
+        padding-top: 1%;
         display: flex;
         width: 100%;
         position: relative;
@@ -106,6 +97,7 @@ main{
         justify-content: center;
     }
         .mainTitleAboutUsWrap{
+            padding-top: 1%;
             display: flex;
             position: absolute;
             justify-content: center;
@@ -152,4 +144,56 @@ main{
                                 font-style: italic;
                                 font-size: 3em;
                             }
+}
+
+/*main products*/
+.mainProductsWrap{
+    grid-area: main;
+    background-image: none;
+    .mainProducts{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+        .card{
+            display: flex;
+            text-align: center;
+            width: 50%;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 3em;
+            box-shadow: 0 0 6px rgba(0,0,0,.5);
+            border-radius: 2%;
+        }
+            .card-img-top{
+                width: 100%;
+                vertical-align: top;
+                height: 300px;
+                object-fit: cover;
+            }
+}
+
+/* main fall22*/
+.mainFall22Wrap{
+    grid-area: main;
+    .mainFall22{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+        .card{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 3em;
+            box-shadow: 0 0 6px rgba(0,0,0,.5);
+            border-radius: 2%;
+        }
+            .card-img-top{
+                width: 100%;
+                vertical-align: top;
+                height: 400px;
+                object-fit: cover;
+            }
 }
