@@ -43,7 +43,8 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  /* newsletter */ }
   main .mainTitleWrap {
     display: grid;
     width: 100%;
@@ -106,6 +107,49 @@ main {
     text-align: center;
     line-height: 40px;
     border-radius: 50%; }
+  main .newsletterWrap {
+    grid-area: main;
+    background: #000000;
+    padding: 2% 5%;
+    margin-top: 3%;
+    align-items: center;
+    text-align: center; }
+  main .newsletterWrap p {
+    max-width: 600px;
+    margin: 2% auto;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke; }
+  main .newsletterWrap .title {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; }
+  main .emailBox {
+    display: flex;
+    height: 5%;
+    justify-content: center; }
+  main .emailBox i {
+    background: #2f3542;
+    color: white;
+    width: 5%;
+    line-height: 40px; }
+  main .tbox .button {
+    border: none;
+    outline: none; }
+  main .tbox {
+    width: 0;
+    transition: 0.7s; }
+  main .emailBox:hover > .tbox, main .tbox:focus {
+    width: 260px;
+    padding: 0 10px; }
+  main .button {
+    background: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer; }
 
 /*nosotros*/
 .mainNosotros {
@@ -263,7 +307,7 @@ body {
     display: grid;
     grid-template-areas: "nav" "header" "main" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 28% 25% 160% 30%;
+    grid-template-rows: 28% 25% 190% 30%;
     height: 100vh; }
 
 /*grid products*/

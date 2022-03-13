@@ -77,7 +77,60 @@ main{
                                             line-height: 40px;
                                             border-radius: 50%;
                                         }
-                            
+                                            /* newsletter */
+                                            .newsletterWrap{
+                                                grid-area: main;
+                                                background: #000000;
+                                                padding: 2% 5%;
+                                                margin-top: 3%;
+                                                align-items: center;
+                                                text-align: center;
+                                            }
+                                                .newsletterWrap p{
+                                                    max-width: 600px;
+                                                    margin: 2% auto;
+                                                    font-size: 15px;
+                                                    font-weight: 300;
+                                                    font-family: 'Roboto', sans-serif;
+                                                    color: whitesmoke;
+                                                }
+                                                    .newsletterWrap .title{
+                                                        color: whitesmoke;
+                                                        font-family: 'Roboto', sans-serif;
+                                                        font-weight: 500;
+
+                                                    }
+                                                        .emailBox{
+                                                            display: flex;
+                                                            height: 5%;
+                                                            justify-content: center;
+                                                        }
+                                                            .emailBox i{
+                                                                background: #2f3542;
+                                                                color: white;
+                                                                width: 5%;
+                                                                line-height: 40px;
+                                                            }
+                                                                .tbox .button{
+                                                                    border: none;
+                                                                    outline: none;
+                                                                }
+                                                                    .tbox{
+                                                                        width: 0;
+                                                                        transition: 0.7s;
+                                                                    }
+                                                                        .emailBox:hover > .tbox,.tbox:focus{
+                                                                            width: 260px;
+                                                                            padding: 0 10px;
+                                                                        }
+                                                                            .button{
+                                                                                background: whitesmoke;
+                                                                                font-family: 'Roboto', sans-serif;
+                                                                                color: black;
+                                                                                padding: 0 10px;
+                                                                                text-transform: uppercase;
+                                                                                cursor: pointer;
+                                                                            } 
 }
 
 /*nosotros*/
