@@ -454,3 +454,7 @@ body {
   .footerHome .logoFooterWrap {
     justify-content: center;
     padding: 0; } }
+
+@media screen and (min-width: 375px) and (max-width: 450px) {
+  body .grid {
+    grid-template-rows: 30% 20% 130% 30%; } }
