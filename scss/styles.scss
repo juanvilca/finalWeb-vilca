@@ -56,6 +56,18 @@ body{
                         "main"
                         "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 28% 25% 315% 30%;
+    grid-template-rows: 28% 25% 190% 30%;
+    height: 100vh;
+}
+
+/*grid contact*/
+.gridContacto{
+    display: grid;
+    grid-template-areas:"nav"
+                        "header"
+                        "main"
+                        "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 28% 25% 100% 30%;
     height: 100vh;
 }
