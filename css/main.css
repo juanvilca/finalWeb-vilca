@@ -5,7 +5,7 @@ header {
   align-items: center; }
   header .brandWrap {
     display: grid;
-    background-color: black; }
+    background-color: #000000; }
   header .brand {
     text-align: center;
     font-size: 7em;
@@ -24,7 +24,7 @@ header {
 
 nav {
   grid-area: nav;
-  background-color: black; }
+  background-color: #000000; }
   nav .navbar-collapse {
     justify-content: right;
     padding-right: 3em;
@@ -49,7 +49,7 @@ main {
     margin-top: 2%;
     justify-content: center;
     align-items: center;
-    background-color: black; }
+    background-color: #000000; }
   main .mainTitle {
     font-family: 'Roboto', sans-serif;
     color: #964f0c;
@@ -96,7 +96,7 @@ main {
     position: absolute;
     top: 40px;
     right: 40px;
-    background-color: black;
+    background-color: #000000;
     color: white;
     text-decoration: none;
     width: 40px;
@@ -181,7 +181,7 @@ main {
     position: absolute;
     width: 58%;
     height: 11.5%;
-    background-color: black;
+    background-color: #000000;
     align-items: center; }
   .mainNosotros .aboutUsText p {
     font-family: 'Noticia Text', serif;
@@ -208,7 +208,8 @@ main {
 /*main products*/
 .mainProductsWrap {
   grid-area: main;
-  background-image: none; }
+  background-image: none;
+  background-color: #000000; }
   .mainProductsWrap .mainProducts {
     display: flex;
     justify-content: center;
@@ -290,7 +291,7 @@ main {
   grid-area: footer;
   justify-content: center;
   align-items: center;
-  background-color: black; }
+  background-color: #000000; }
   .footerHome .redesIconosWrap {
     display: grid;
     padding-top: 8%; }
@@ -373,3 +374,57 @@ body {
   grid-template-columns: 100%;
   grid-template-rows: 28% 25% 100% 30%;
   height: 100vh; }
+
+/*media queries*/
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  body .grid {
+    grid-template-rows: 30% 35% 170% 30%; }
+  .gridNosotros {
+    grid-template-rows: 30% 35% 100% 30%; }
+  header .brand {
+    font-size: 6em; }
+  header .sub {
+    font-size: 0.6em; }
+  /* newsletter */
+  main .newsletterWrap {
+    margin-top: 6%; }
+  main .emailBox i {
+    width: 20%; }
+  main .tbox {
+    width: 100%;
+    transition: none; }
+  main .emailBox:hover > .tbox, main .tbox:focus {
+    width: 170px;
+    padding: 0 10px; }
+  main .button {
+    background: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer; }
+  .mainNosotros .aboutUs {
+    padding-top: 20%; }
+  .mainNosotros .mainTitleAboutUsWrap {
+    padding-top: 10%; }
+  .mainNosotros .mainTitleAboutUs {
+    text-align: center;
+    font-size: 2em; }
+  .mainNosotros .mainImgAboutUs img {
+    width: 320px;
+    height: 520px; }
+  .mainNosotros .aboutUsText {
+    width: 100%;
+    height: 33%;
+    margin-top: 35%;
+    background-color: rgba(0, 0, 0, 0.623); }
+  .mainNosotros .mainTitleWrapCloser {
+    width: 95%;
+    height: 100%;
+    padding-bottom: 10%; }
+  .mainNosotros .mainTitleCloser {
+    text-align: center;
+    font-size: 2em; }
+  .footerHome .logoFooterWrap {
+    justify-content: center;
+    padding: 0; } }

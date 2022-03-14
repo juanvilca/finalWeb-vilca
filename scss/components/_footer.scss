@@ -4,7 +4,7 @@
     grid-area: footer;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: $main-color;
     .redesIconosWrap{
         display: grid;
         padding-top: 8%;
@@ -18,7 +18,7 @@
             .redesIconos a{
                 text-decoration: none;
                 font-size: 25px;
-                color: whitesmoke;
+                color: $color2;
                 width: 45px;
                 height: 45px;
                 text-align: center;
@@ -34,7 +34,7 @@
                         font-weight: 500;
                         font-size: 0.7em;
                         text-align: center;
-                        color: whitesmoke;
+                        color: $color2;
                         margin: 1em;
                     }
                         .logoFooterWrap{
