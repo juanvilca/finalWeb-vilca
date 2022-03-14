@@ -1,7 +1,4 @@
 header {
-  width: 200px; }
-
-header {
   display: grid;
   grid-area: header;
   width: 100%;
