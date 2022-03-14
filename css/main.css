@@ -403,6 +403,17 @@ body {
     padding: 0 10px;
     text-transform: uppercase;
     cursor: pointer; }
+  /*grid fall22*/
+  .gridFall22 {
+    grid-template-rows: 38% 35% 205% 30%; }
+  /* main fall22*/
+  .mainFall22Wrap {
+    grid-area: main; }
+    .mainFall22Wrap .card {
+      margin: 1em; }
+    .mainFall22Wrap .card-img-top {
+      width: 100%;
+      height: 200px; }
   /*grid products*/
   .gridProducts {
     grid-template-rows: 30% 35% 515% 30%; }
