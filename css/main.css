@@ -457,7 +457,7 @@ body {
 
 @media screen and (min-width: 375px) and (max-width: 600px) {
   body .grid {
-    grid-template-rows: 30% 20% 120% 30%; }
+    grid-template-rows: 30% 20% 105% 30%; }
   /*grid products*/
   .gridProducts {
     grid-template-rows: 25% 30% 580% 30%; }
