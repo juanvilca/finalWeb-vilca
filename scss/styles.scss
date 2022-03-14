@@ -117,6 +117,34 @@ body{
                         cursor: pointer;
                     }
     }
+    /*grid products*/
+    .gridProducts{
+        grid-template-rows: 30% 35% 515% 30%;
+    }
+
+    /*main products*/
+    .mainProductsWrap{
+        .card{
+            width: 50%;
+            margin: 0.5em;
+        }
+            .card-img-top{
+                height: 160px;
+            }
+    }
+
+    /*grid contact*/
+    .gridContacto{
+        grid-template-rows: 30% 35% 90% 30%;
+    }
+
+    .mainContacto{
+        .form{
+            margin-top: 80px;
+            width: 300px;
+        }
+    }
+
     .mainNosotros{
         .aboutUs{
             padding-top: 20%;
