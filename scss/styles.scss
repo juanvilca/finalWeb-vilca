@@ -133,7 +133,7 @@ body{
     
     /*grid products*/
     .gridProducts{
-        grid-template-rows: 20% 20% 320% 20%;
+        grid-template-rows: 30% 30% 475% 30%;
     }
     /*main products*/
     .mainProductsWrap{
@@ -210,7 +210,7 @@ body{
     }
     /*grid products*/
     .gridProducts{
-        grid-template-rows: 20% 23% 430% 20%;
+        grid-template-rows: 30% 30% 536% 30%;
     }
     /*main products*/
     .mainProductsWrap{
@@ -220,7 +220,7 @@ body{
         }
             .card-img-top{
                 width: 100%;
-                height: 300px;
+                height: 220px;
             }
     }
     /*grid nosotros*/
@@ -330,7 +330,7 @@ body{
     } 
     /*grid products*/
     .gridProducts{
-        grid-template-rows: 22% 20% 254% 20%;
+        grid-template-rows: 30% 30% 375% 30%;
     }
     /*main products*/
     .mainProductsWrap{
@@ -388,31 +388,5 @@ body{
     /*grid contact*/
     .gridContacto{
         grid-template-rows: 30% 30% 90% 30%;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1441px){
-    body{
-        .grid{
-            grid-template-rows: 22% 22% 163% 25%;
-        }
-    }
-    .gridFall22{
-        grid-template-rows: 18% 28% 143% 20%;
-    }
-    /* main fall22*/
-    .mainFall22Wrap{
-        grid-area: main;
-            .card{
-                margin: 1em;
-            }
-                .card-img-top{
-                    width: 100%;
-                    height: 380px;
-                }
-    }   
-    /*grid nosotros*/
-    .gridNosotros{
-        grid-template-rows: 22% 25% 146% 30%;
     }
 }
