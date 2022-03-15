@@ -1,6 +1,5 @@
 nav{
-    grid-area: nav;
-    background-color: $main-color;
+    @include nav;
     .navbar-collapse{
         justify-content: right;
         padding-right: 3em;

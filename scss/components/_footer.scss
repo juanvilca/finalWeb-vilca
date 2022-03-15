@@ -1,10 +1,6 @@
 /*footer*/
 .footerHome{
-    display: grid;
-    grid-area: footer;
-    justify-content: center;
-    align-items: center;
-    background-color: $main-color;
+    @include footer;
     .redesIconosWrap{
         display: grid;
         padding-top: 8%;

@@ -1,0 +1,19 @@
+@mixin header {
+    display: grid;
+    grid-area: header;
+    width: 100%;
+    align-items: center;
+}
+
+@mixin footer {
+    display: grid;
+    grid-area: footer;
+    justify-content: center;
+    align-items: center;
+    background-color: $main-color;
+}
+
+@mixin nav {
+    grid-area: nav;
+    background-color: $main-color;
+}

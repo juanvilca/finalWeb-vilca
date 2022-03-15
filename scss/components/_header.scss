@@ -1,8 +1,5 @@
 header{
-    display: grid;
-    grid-area: header;
-    width: 100%;
-    align-items: center;
+    @include header;
     .brandWrap{
         display: grid;
         background-color: $main-color;
